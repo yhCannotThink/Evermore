@@ -85,3 +85,53 @@ footer {
     font-size: 2rem;
   }
 }
+
+/* Secret */
+.secret-container {
+  background: rgba(255, 255, 255, 0.15);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  padding: 3rem;
+  max-width: 420px;
+  margin: 10vh auto;
+  color: #fff;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.35);
+}
+
+.secret-page {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.35),
+      rgba(0, 0, 0, 0.35)
+    ),
+    url("images/tulip-fields.jpg") center / cover no-repeat fixed;
+  font-family: system-ui, sans-serif;
+}
+
+.time {
+  font-size: 2rem;
+  color: #ff758c;
+  margin-top: 20px;
+}
+
+.confetti-emoji {
+  cursor: pointer;
+  display: inline-block;
+  transition: transform 0.15s ease;
+}
+
+.confetti-emoji:hover {
+  transform: scale(1.2) rotate(-8deg);
+}
+
+.secret-text {
+  margin-top: 30px; 
+  color: #e4e3e3;
+}
+
+.link {
+  color: #0b26ef;
+}
